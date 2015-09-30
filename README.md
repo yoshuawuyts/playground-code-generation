@@ -9,10 +9,22 @@ How fast can we generate new projects? A little experiment where every attempt
 I have 10 minutes to create a new project. Increasing amounts of automation
 should get me further each time.
 
+Where touch typing and `vim` reduce friction between thought and characters
+appearing on screen, code generation reduces friction between ideas and
+projects being created. Why copy and paste boilerplate if we can let machines
+do it for us.
+
 ## Installation
 ```sh
 $ git clone https://github.com/yoshuawuyts/playground-code-generation
 ```
+
+## Timings
+### [2015-09-30] project_01
+- __time__: 00:12:34
+- __modules used__: `initialize`
+- __modules to build__: `initialize-project`, `initialize-submodule`,
+  `initialize-build`
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

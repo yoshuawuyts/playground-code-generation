@@ -13,12 +13,15 @@ $ npm install project_01
 ```
 
 ## Timings
-```txt
-2015-09-30,  project_01,  00:12:34
-```
+## [2015-09-30] project_01
+- __time__: 00:12:34
+- __modules used__: `initialize`
+- __modules to build__: `initialize-project`, `initialize-submodule`,
+  `initialize-build`
 
-## API
-### project01
+## Modules used
+- [initialize](https://github.com/yoshuawuyts/initialize) - create a fresh
+  module
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
