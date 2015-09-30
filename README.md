@@ -26,6 +26,12 @@ $ git clone https://github.com/yoshuawuyts/playground-code-generation
 - __modules to build__: `initialize-project`, `initialize-submodule`,
   `initialize-build`
 
+This wasn't too fast. `initialize` is meant for modules, the project structure
+wasn't too great either. It's probably best to create a base project, and then
+use direction-specific generators (frontend / backend) to wire out the
+necessary boilerplate. Creating submodules is also a bit slow, this could be
+sped up a lot.
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
