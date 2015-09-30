@@ -1,5 +1,5 @@
 {
-  "name": "spherio",
+  "name": "project_01",
   "version": "1.0.0",
   "description": "project_01",
   "private": true,
@@ -11,7 +11,7 @@
     "start:watch": "NODE_ENV=development nodemon -i 'node_modules/' -i 'client*' -i 'component*' -- ./index.js | garnish",
     "watch": "npm run start:watch"
   },
-  "repository": "yoshuawuyts/spherio",
+  "repository": "yoshuawuyts/project_01",
   "license": "MIT",
   "dependencies": {
     "server-main": "file:server-main"

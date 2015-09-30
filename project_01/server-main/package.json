@@ -1,0 +1,28 @@
+{
+  "name": "server-main",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "bl": "^1.0.0",
+    "bole": "^2.0.0",
+    "bole-stream": "^1.0.2",
+    "browserify": "^11.1.0",
+    "http-ndjson": "^1.1.2",
+    "hyperstream": "^1.2.2",
+    "inject-lr-script-stream": "^1.0.1",
+    "inject-typekit-script-stream": "^1.0.2",
+    "myth": "^1.5.0",
+    "pathname-match": "^1.1.0",
+    "rework": "^1.0.1",
+    "rework-npm": "^1.0.0",
+    "send-data": "^7.0.0",
+    "server-summary": "^3.2.0",
+    "simple-html-index": "^1.1.2",
+    "tiny-lr": "^0.1.6",
+    "watchify": "^3.4.0",
+    "watchify-request": "^2.0.0",
+    "wayfarer": "^5.0.1",
+    "wayfarer-to-server": "^2.1.0"
+  }
+}
