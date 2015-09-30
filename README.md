@@ -17,7 +17,7 @@ $ git clone https://github.com/yoshuawuyts/playground-code-generation
 
 ## Timings
 ### [2015-09-30] project_01
-- __time__: 00:12:34
+- __time elapsed__: 00:12:34
 - __modules used__: `initialize`
 - __modules to build__: `initialize-project`, `initialize-submodule`,
   `initialize-build`
