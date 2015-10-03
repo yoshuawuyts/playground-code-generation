@@ -15,6 +15,15 @@ do it for us.
 $ git clone https://github.com/yoshuawuyts/playground-code-generation
 ```
 
+## Goals
+- application entry point
+- automated scripts working for both production + development
+- assert serving for both production + development
+- logging pipeline
+- basic api setup
+- typography + vars setup
+- empty view, ready to be extended
+
 ## Timings
 ### [2015-09-30] project_01
 - __time elapsed__: 00:12:34
