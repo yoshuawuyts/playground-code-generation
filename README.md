@@ -25,6 +25,17 @@ $ git clone https://github.com/yoshuawuyts/playground-code-generation
 - empty view, ready to be extended
 
 ## Timings
+### [2015-10-05] project_02
+- __time elapsed__: 00:14:52
+- __modules used__: `initialize-project`
+- __modules to build__: `initialize-submodule`, `initialize-build`,
+  `initialize-api`, `initialize-initialize`
+
+This went a lot better. Explored what the minimal viable server would look
+like, and I think I've found it. I need to extend `initialize-project` to
+create a CLI / index.js / hello world server, and create an API generator that
+runs out some base endpoints.
+
 ### [2015-09-30] project_01
 - __time elapsed__: 00:12:34
 - __modules used__: `initialize`
