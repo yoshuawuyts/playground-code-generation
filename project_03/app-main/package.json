@@ -1,0 +1,9 @@
+{
+  "name": "app-main",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "readable-stream": "^2.0.4"
+  },
+  "devDependencies": {}
+}

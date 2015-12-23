@@ -1,0 +1,30 @@
+{
+  "name": "project_03",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm-modules",
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "dev": "linklocal link -r && linklocal list -r | bulk -c 'npm install --production'",
+    "prepublish": "if [ \"$NODE_ENV\" != \"production\" ]; then npm run dev; fi",
+    "start": "node .",
+    "start:watch": "NODE_ENV=development nodemon -i 'node_modules/' -i 'client*' -i 'component*' -- ./index.js | garnish",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js",
+    "watch": "npm run start:watch"
+  },
+  "dependencies": {
+    "app-main": "file:app-main",
+    "bole-stream": "^2.1.0",
+    "http-ndjson": "^2.3.3",
+    "level": "^1.3.0",
+    "server-summary": "^4.0.1",
+    "app-controllers": "file:app-controllers",
+    "app-models": "file:app-models",
+    "app-api": "file:app-api"
+  },
+  "devDependencies": {
+    "bulk": "^2.0.0",
+    "linklocal": "^2.5.2"
+  }
+}

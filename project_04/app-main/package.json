@@ -1,0 +1,12 @@
+{
+  "name": "app-main",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "bole-stream": "^2.1.0",
+    "http-ndjson": "^2.3.3",
+    "server-summary": "^4.0.1"
+  },
+  "devDependencies": {}
+}

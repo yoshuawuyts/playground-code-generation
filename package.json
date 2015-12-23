@@ -1,5 +1,11 @@
 {
   "name": "playgroun-code-generation",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "bole": "^2.0.0",
+    "pumpify": "^1.3.3",
+    "size-stream": "^1.0.1",
+    "stdout-stream": "^1.4.0"
+  }
 }
